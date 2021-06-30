@@ -17,4 +17,7 @@ export class AccountsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onDelete(id: number) {
+    this.accountsService.onDeleteAccount(id)
+  }
 }

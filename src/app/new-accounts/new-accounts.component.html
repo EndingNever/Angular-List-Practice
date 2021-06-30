@@ -1,7 +1,11 @@
-New Account Name: <input type="text" [(ngModel)]="nameInput" #name>
-New Account Status: <input type="text" [(ngModel)]="statusInput"  #status>
-<button
-  (click)="onAdd(name.value, status.value)"
+<div class="container">
+  <div class="newAccounts">
+    New Account Name: <input type="text" [(ngModel)]="nameInput" #name>
+    New Account Status: <input type="text" [(ngModel)]="statusInput"  #status>
+    <button
+    (click)="onAdd(name.value, status.value)"
 
-  [disabled]=" nameInput==='' || statusInput === '' "
-  >Add</button>
+    [disabled]=" nameInput==='' || statusInput === '' "
+    >Add</button>
+  </div>
+</div>

@@ -23,7 +23,7 @@ export class AccountsService {
     console.log(this.accounts)
   }
 
-  onDeleteAccount(name:string, id:number){
+  onDeleteAccount(id:number){
     this.accounts.splice(id, 1)
   }
 

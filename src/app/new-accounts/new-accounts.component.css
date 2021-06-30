@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.newAccounts {
+  margin-top: 20px;
+}
