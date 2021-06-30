@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: space-evenly
+}
+
+#accountName {
+  background-color: rgba(0, 128, 0, 0.404);
+  color: rgb(109, 33, 180);
+
+}
+
+#accountStatus {
+  background-color: rgba(128, 0, 128, 0.356);
+  color: rgb(41, 155, 130);
+}
+
