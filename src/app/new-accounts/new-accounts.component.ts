@@ -16,9 +16,9 @@ export class NewAccountsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onAdd(nameValue: string, statusValue: string) {
-    this.accountsServices.onAddAccount(nameValue, statusValue);
-    this.nameInput='';
-    this.statusInput='';
+  onAdd(nameValue: string, statusValue: string) { // We call this method when we click on the button, passing along 2 arguments
+    this.accountsServices.onAddAccount(nameValue, statusValue); // we are telling the accountsServices(type AccountsService, which is the service) to call the onAddAccount, passing along nameValue and statusValue
+    this.nameInput=''; // resetting the input fields to empty
+    this.statusInput=''; // resetting the input fields to empty
   }
 }
